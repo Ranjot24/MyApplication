@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Primary branding color for your app -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Dark variant of the primary branding color -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Light variant of the primary branding color -->
+    <color name="colorPrimaryLight">#C5CAE9</color>
+
+    <!-- Text color for elements in the app's toolbar or action bar -->
+    <color name="colorTextAppBar">#FFFFFF</color>
+
+    <!-- Accent color used for certain UI elements -->
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Additional custom colors can be defined here -->
+
+</resources>

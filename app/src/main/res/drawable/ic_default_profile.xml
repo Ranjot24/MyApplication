@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/ic_default_profile.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    android:tint="?attr/colorControlNormal">
+
+    <!-- Circular background -->
+    <shape android:shape="oval">
+        <solid android:color="?attr/colorPrimary" />
+        <size android:width="24dp" android:height="24dp" />
+    </shape>
+
+    <!-- Person icon in the center -->
+    <path
+        android:fillColor="?android:textColorPrimary"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,4c1.86,0 3.41,1.28 3.85,3h-7.7c0.44,-1.72 2,-3 3.85,-3zM4.1,11h-0.69C3.47,11 3,11.47 3,12s0.47,1 1.41,1h0.69C4.03,13 4.5,12.53 4.5,12S4.03,11 4.1,11zM19.31,11h-0.69C18.53,11 18,11.47 18,12s0.47,1 1.41,1h0.69C19.03,13 19.5,12.53 19.5,12S19.03,11 19.31,11zM12,20c-1.93,0 -3.74,-0.74 -5.11,-2H17.11C15.74,19.26 13.93,20 12,20z" />
+</vector>

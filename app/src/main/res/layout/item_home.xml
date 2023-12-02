@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_home.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageUrlViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/your_image_placeholder"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewItemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Description"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- Add more views for other item details -->
+
+</LinearLayout>
+

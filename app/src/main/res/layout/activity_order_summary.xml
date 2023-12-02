@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvOrderSummaryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Summary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Display order details such as items, total price, delivery address, etc. -->
+    <!-- Customize and add more views as needed -->
+
+    <TextView
+        android:id="@+id/tvOrderDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordered Details:"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvOrderItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordered Items: Product 1, Product 2, Product 3"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvOrderTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: $50.00"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewStreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+
+    <TextView
+        android:id="@+id/textViewCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/textViewState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/textViewZipCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tvOrderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnConfirmOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order"
+        android:layout_below="@+id/tvOrderTotal"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDeliveryAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Address: 123 Street, City, State, ZIP Code"
+        android:layout_marginBottom="16dp"/>
+
+
+    <!-- Add more TextViews or other views for additional order details -->
+
+</LinearLayout>

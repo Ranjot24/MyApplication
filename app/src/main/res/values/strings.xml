@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="logo_description" />
+    <string name="profile_image_description" />
+    <string name="category_image_description" />
+</resources>
