@@ -20,8 +20,8 @@ class WishlistViewModel(application: Application) : AndroidViewModel(application
         allItems = wishlistRepository.allItems
     }
 
-    fun getWishlistItemByProductId(productId: String) = viewModelScope.launch(Dispatchers.IO) {
-            wishlistRepository.getWishlistItemByProductId(productId)
+    fun getWishlistItemByProductId(productId: String): LiveData<WishlistItem?> {
+        return WishlistItemDao.getWishlistItemByProductId(productId)
     }
 
     fun updateWishlistItemQuantity(wishlistItem: WishlistItem, newQuantity: Int) = viewModelScope.launch(Dispatchers.IO) {

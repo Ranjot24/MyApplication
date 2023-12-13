@@ -10,8 +10,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-import com.example.myapplication.R
-
 class CategoryFragment : Fragment() {
 
     private lateinit var categoryAdapter: CategoryAdapter
@@ -32,7 +30,7 @@ class CategoryFragment : Fragment() {
         // Initialize RecyclerView and Adapter
         categoryAdapter = CategoryAdapter { selectedCategory ->
             // Handle category item click
-            val action = CategoryFragmentDirections.actionCategoryFragmentToDetailsFragment(selectedCategory.id)
+            val action = CategoryFragmentDirections.actionCategoryFragmentToDetailsFragment(categoryId = selectedCategory.id)
             findNavController().navigate(action)
         }
 
@@ -45,7 +43,5 @@ class CategoryFragment : Fragment() {
 
         return view
     }
-
-
 }
 

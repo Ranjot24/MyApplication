@@ -55,4 +55,7 @@
     <item name="etNewQuantity" type="id" />
     <item name="pay_button" type="id" />
     <item name="address_button" type="id" />
+    <item name="detailsFragment" type="id" />
+    <item name="shippingDetailsTextView" type="id" />
+    <item name="recyclerView" type="id" />
 </resources>

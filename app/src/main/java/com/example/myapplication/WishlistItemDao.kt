@@ -27,5 +27,11 @@ interface WishlistItemDao {
 
     @Query("DELETE FROM wishlist_table")
     suspend fun deleteAllWishlistItems()
+
+    companion object {
+        fun getWishlistItemByProductId(productId: String): LiveData<WishlistItem?> {
+            return getWishlistItemByProductId(productId)
+        }
+    }
 }
 
